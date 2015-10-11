@@ -1,0 +1,20 @@
+<head>
+  <title>Bochat</title>
+</head>
+
+<body>
+  <h1>Welcome to Bochat!</h1>
+
+  {{> chat}}
+</body>
+
+<template name="chat">
+	<div id="chatbox">
+		{{#each chats}}
+			<div>{{chat}}</div>
+		{{/each}}
+	</div>
+	<form id="chatinput">
+  	<input type="text" name="chatvalue">
+  </form>
+</template>

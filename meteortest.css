@@ -1,0 +1,11 @@
+/* CSS declarations go here */
+#chatbox {
+	display: block;
+	height: 400px;
+	width: 400px;
+	border: 1px solid blue;
+}
+
+#chatinput input{
+	width: 400px;
+}
